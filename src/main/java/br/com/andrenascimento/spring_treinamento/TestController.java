@@ -54,9 +54,9 @@ public class TestController {
 
   @GetMapping("/teste6/{id}/{name}")
   public String action6(@PathVariable("id") Long productId,
-  @PathVariable("name") String produtctName){
+  @PathVariable("name") String productName){
     System.out.println(productId);
-    System.out.println(produtctName);
+    System.out.println(productName);
     return "teste";
   }
 
